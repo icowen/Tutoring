@@ -17,22 +17,21 @@ Now you should be able to press the play button and it will print
 out the print line below.
 '''
 
-print('Congratulations! You set up your first python file!')
+# print('Congratulations! You set up your first python file!')
 
 '''
 Now, let's move on to some problems!
 
 1.) Make a list with the numbers 0-10 in it and print it out.
 '''
-
-
-
+# print([i for i in range(-1,9)])
 
 '''
 2.) Use a for loop and the range function to print out the numbers 
     between 0 and 500. 
 '''
-
+# for i in range(0,501):
+#     print (i)
 
 
 
@@ -43,8 +42,21 @@ Now, let's move on to some problems!
     -"Hello" + whatever the user types in, if the user types in anything that is not a 1 or 2. 
 '''
 
+# ILikeToEatMacaronieAndCheeseWileWatchingTvPsSubscribeToDenisDailyAndJdAndMyUsernameIsThis = input("WE NEED YOU TO SMELL LIKE BACON NOOOOOWWWWWWWW!")
+# if ILikeToEatMacaronieAndCheeseWileWatchingTvPsSubscribeToDenisDailyAndJdAndMyUsernameIsThis =="1":
+#     print("ILikeToEatMacaronieAndCheeseWileWatchingTvPsSubscribeToDenisdailyAndJdAndMyUsernameIsThis is1")
+# if ILikeToEatMacaronieAndCheeseWileWatchingTvPsSubscribeToDenisDailyAndJdAndMyUsernameIsThis =="2":
+#     print("2")
+# if ILikeToEatMacaronieAndCheeseWileWatchingTvPsSubscribeToDenisDailyAndJdAndMyUsernameIsThis == "hello":
+#     print ("hello")
+# else:
+#     print("else")
 
-
+IFoundAPigIThoughtItWasSteakButMyFriendToldMeThatItWasCowMeatButIWasNotSureSoIAskedMyMomAndSheSeadItWasShrimpMeatButIStillDidntBeleveHerSoIWhentToFindOutSoISloterdThePigAndItTastedLikeBaconYayIWasRightILoveBaconPsINeedYourBaconNOW=input("enter a number")
+if IFoundAPigIThoughtItWasSteakButMyFriendToldMeThatItWasCowMeatButIWasNotSureSoIAskedMyMomAndSheSeadItWasShrimpMeatButIStillDidntBeleveHerSoIWhentToFindOutSoISloterdThePigAndItTastedLikeBaconYayIWasRightILoveBaconPsINeedYourBaconNOW=="1":
+    print(1)
+else:
+    print("else")
 
 
 '''
